@@ -1063,7 +1063,7 @@
 	    "stackfile": "https://raw.githubusercontent.com/portainer/templates/master/stacks/cockroachdb/edge/docker-stack.yml"
 	  },
  	  {
-		"type": 5,
+		"type": 1,
 		"title": "Zimbra",
 		"description": "Zimbra Community Mail Server",
 		"categories": [
