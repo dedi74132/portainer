@@ -1061,42 +1061,6 @@
 	    "description": "CockroachDB cluster",
 	    "note": "Deploys an insecure CockroachDB cluster, please refer to <a href=\"https://www.cockroachlabs.com/docs/stable/orchestrate-cockroachdb-with-docker-swarm.html\" target=\"_blank\">CockroachDB documentation</a> for production deployments.",
 	    "stackfile": "https://raw.githubusercontent.com/portainer/templates/master/stacks/cockroachdb/edge/docker-stack.yml"
-	  },
- 	  {
-		"type": 1,
-		"title": "Zimbra",
-		"description": "Zimbra Community Mail Server",
-		"categories": [
-			"mailserver"
-		],
-		"platform": "linux",
-		"logo": "https://www.zimbra.com/wp-content/uploads/2016/06/zimbra-logo-color-282-1.png",
-		"image": "jorgedlcruz/zimbra",
-		"ports": [
-			"80/tcp",
-			"443/tcp",
-			"25/tcp",
-			"465/tcp",
-			"587/tcp",
-			"143/tcp",
-			"993/tcp",
-			"995/tcp",
-			"8080/tcp",
-			"8443/tcp",
-			"7071/tcp",
-			"9071/tcp"			
-		],
-		 "dns":[
-		 	"127.0.0.1",
-		 	"8.8.8.8"
-		 ],
-		"volumes": [{
-				"container": "/etc/zimbra"
-			},
-			{
-				"container": "/usr/share/zimbra"
-			}
-		]
 	  }
 		      
 	]
